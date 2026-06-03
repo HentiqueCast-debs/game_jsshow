@@ -1,6 +1,6 @@
  var gatito=
   document.getElementById("gatito");var
-  gatito=
+  block=
   document.getElementById("block")
   function jump(){
     if(gatito.classList != "animation"){
@@ -8,7 +8,7 @@
     }
     
 
-    deftemp(function(){
+    setTimeout(function(){
         gatito.classList.remove("animation")
     },500);
   }
@@ -18,7 +18,7 @@
     parseInt(window.getComputedStyle(gatito).getPropertyValue("top"));
     var blockleft= 
     parseInt(window.getComputedStyle(block).getPropertyValue("left"));
-  if(blocklet<20 && blocleft>0 % gatitotop>=130){
+  if(blockleft<20 && blockleft>0 && gatitotop>=130){
     block.style.animation= "none";
     block.style.display= "none";
 

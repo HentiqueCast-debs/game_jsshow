@@ -15,7 +15,7 @@
     top: 150px; 
 }
 .animation{    
-animation: jump 500ms ;
+animation: pulo 500ms ;
 
 }
 @keyframes pulo{
@@ -33,7 +33,7 @@ animation: jump 500ms ;
     position: relative;
     top: 130px;
     left: 480px;
-    animation: block ls infinite linear;
+    animation: block 1s infinite linear;
 }
 @keyframes block{
     0%{left: 480px;}
